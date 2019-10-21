@@ -190,7 +190,7 @@ static NSString *HPReorderTableViewCellReuseIdentifier = @"HPReorderTableViewCel
 
 static UIImage* HPImageFromView(UIView *view)
 {
-    UIGraphicsBeginImageContextWithOptions(view.bounds.size, YES, 0);
+    UIGraphicsBeginImageContextWithOptions(view.bounds.size, NO, 0);
     [view.layer renderInContext:UIGraphicsGetCurrentContext()];
     UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
     UIGraphicsEndImageContext();
