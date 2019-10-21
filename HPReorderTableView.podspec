@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.author       = { "Hermes Pique" => "@hpique" }
   s.social_media_url = 'https://twitter.com/hpique'
   s.ios.deployment_target = '6.1'
-  s.source       = { :git => "https://github.com/hpique/HPReorderTableView.git", :tag => "v#{s.version}" }
+  s.source       = { :git => "https://github.com/alltrails/HPReorderTableView.git", :tag => "v#{s.version}" }
   s.source_files  = 'HPReorderTableView/*.{h,m}'
   s.requires_arc = true;
 end
